@@ -1,6 +1,6 @@
 # Babel
 
-> Babel基础
+## Babel基础
 
 `babel-cli` 执行babel编译的CLI命令
 `babel-core` babel核心的API，用于使用babel API编程
@@ -18,17 +18,18 @@
 }
 ```
 
-2.预设插件
+## 常用插件说明
 
+1.预设插件
 `babel-preset-react` 编译react预设
 `babel-preset-es2015` 编译es2015预设
 `babel-preset-stage-2` 编译es2015的新提案预设
 
-3.浏览器兼容
+2.兼容
 `babel-polyfill` 让浏览器可以运行新的es2015 API（babel默认是转换es2015语法）
 
 Babel默认不转码的API非常多，详细清单可以查看babel-plugin-transform-runtime模块的definitions.js文件。
 
-4.使用“助手”方法来保持生成代码的整洁
+3.让生成的代码保持整洁
 `babel-plugin-transform-runtime`
 `babel-runtime`
